@@ -14,14 +14,14 @@
 
 cmake_minimum_required(VERSION 3.14)
 
-project(VERSEExamples VERSION 0.3.0 LANGUAGES CXX)
+project(VERSEExamples VERSION 0.4.0 LANGUAGES CXX)
 
 # If not called from root CMakeLists.txt
 if(NOT DEFINED VERSE_BUILD_EXAMPLE)
     set(VERSE_BUILD_EXAMPLE ON)
 
     # Import Microsoft VERSE
-    find_package(PETAce-Verse 0.3.0 EXACT REQUIRED)
+    find_package(PETAce-Verse 0.4.0 EXACT REQUIRED)
 
     set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/bin)
 endif()

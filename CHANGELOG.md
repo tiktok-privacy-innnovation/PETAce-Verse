@@ -18,3 +18,6 @@
 ### Features
 
 - Added benchmark for Verse.
+
+## Version 0.4.0
+- No update.

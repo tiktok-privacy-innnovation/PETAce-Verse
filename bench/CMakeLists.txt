@@ -14,13 +14,13 @@
 
 cmake_minimum_required(VERSION 3.14)
 
-project(VERSEBench VERSION 0.3.0 LANGUAGES CXX)
+project(VERSEBench VERSION 0.4.0 LANGUAGES CXX)
 
 # If not called from root CMakeLists.txt
 if(NOT DEFINED VERSE_BUILD_BENCH)
     set(VERSE_BUILD_BENCH ON)
 
-    find_package(PETAce-Verse 0.3.0 EXACT REQUIRED)
+    find_package(PETAce-Verse 0.4.0 EXACT REQUIRED)
 
     add_compile_options(-msse4.2 -Wno-ignored-attributes -mavx)
 

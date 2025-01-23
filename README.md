@@ -23,8 +23,8 @@ Currently, PETAce-Verse includes: [Naor-Pinkas OT](https://dl.acm.org/doi/10.555
 
 | Required dependency                                                            | Tested version | Use                             |
 |--------------------------------------------------------------------------------|----------------|---------------------------------|
-| [PETAce-Solo](https://github.com/tiktok-privacy-innovation/PETAce-Solo)       | 0.3.0          | Cryptography primitives         |
-| [PETAce-Network](https://github.com/tiktok-privacy-innovation/PETAce-Network) | 0.3.0          | Network communication protocols |
+| [PETAce-Solo](https://github.com/tiktok-privacy-innovation/PETAce-Solo)       | 0.4.0          | Cryptography primitives         |
+| [PETAce-Network](https://github.com/tiktok-privacy-innovation/PETAce-Network) | 0.4.0          | Network communication protocols |
 
 | Optional dependency                                | Tested version | Use               |
 |----------------------------------------------------|----------------|-------------------|
@@ -102,14 +102,14 @@ This project is licensed under the [Apache-2.0 License](LICENSE).
 
 To cite PETAce in academic papers, please use the following BibTeX entries.
 
-### Version 0.3.0
+### Version 0.4.0
 
 ```tex
     @misc{petace,
-        title = {PETAce (release 0.3.0)},
+        title = {PETAce (release 0.4.0)},
         howpublished = {\url{https://github.com/tiktok-privacy-innovation/PETAce}},
-        month = Jun,
-        year = 2024,
+        month = Jan,
+        year = 2025,
         note = {TikTok Pte. Ltd.},
         key = {PETAce}
     }

@@ -14,13 +14,13 @@
 
 cmake_minimum_required(VERSION 3.14)
 
-project(VERSETest VERSION 0.3.0 LANGUAGES CXX C)
+project(VERSETest VERSION 0.4.0 LANGUAGES CXX C)
 
 # If not called from root CMakeLists.txt
 if(NOT DEFINED VERSE_BUILD_TEST)
     set(VERSE_BUILD_TEST ON)
 
-    find_package(PETAce-Verse 0.3.0 EXACT REQUIRED)
+    find_package(PETAce-Verse 0.4.0 EXACT REQUIRED)
 
     # Must define these variables and include macros
     set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/lib)
